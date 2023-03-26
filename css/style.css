@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+}
+
+body{
+    background-color: #01030E;
+}
+
+header{
+    width: 100%;
+    background-color: #01030E;
+    text-align: center;
+    padding: 20px 2%;
+}
+
+section{
+    width: 100%;
+    height: calc(100vh - 163px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 35px;
+}
+
+.container-app{
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    background-color: #000018;
+    box-shadow: 0 0 3px 1px #111177;
+    border-radius: 10px;
+}
+
+.titulo-app h1{
+    text-align: center;
+    color: white;
+}
+
+.container-opcao{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.container-resultado{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-resultado p{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.escolha-jogador, .escolha-inimigo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.escolha-jogador img, .escolha-inimigo img{
+    width: 80px;
+    margin-top: 10px;
+    padding: 5px;
+    cursor: pointer;
+    opacity: .3;
+    transition: .5s;
+}
+
+.label-escolha p{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 2%;
+    background-color: #01030E;
+    text-align: center;
+}
+
+.link-rodape{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-rodape{
+    max-width: 200px;
+    width: 100%;
+}
+
+.nav-rodape ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-rodape ul li{
+    list-style: none;
+}
+
+.nav-rodape a, .creditos a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 1s;
+}
+
+.nav-rodape a:hover, .creditos a:hover{
+    opacity: .7;
+}
+
+.creditos{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.creditos p{
+    color: white;
+}

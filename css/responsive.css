@@ -1,0 +1,27 @@
+@media (max-width: 720px){
+    .container-opcao{
+        flex-direction: column;
+        justify-content: none;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .container-escolha{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-resultado{
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .escolha-jogador, .escolha-inimigo{
+        width: 100%;
+        flex-direction: row;
+        align-items: none;
+        justify-content: space-around;
+        padding: 10px 0;
+    }
+}
